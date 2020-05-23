@@ -1,6 +1,8 @@
 # mooc-User-learning-information-api
-##User learning information api用户在mooc平台上学习情况api
-####通过post提交用户Id返回用户学习情况。（以我信息为例，仅需要Id，不需要登录后其他cookies身份信息）
+User learning information api用户在mooc平台上学习情况api
+==
+通过post提交用户Id返回用户学习情况。（以我信息为例，仅需要Id，不需要登录后其他cookies身份信息）
+=
 id为大于1015002001十位数，最大值自己注册最新账号看
 经过仔细观察找到接口,接口传参是以post形式提交请求返回参数的,提交过程中params中的csrfKey和浏览器cookie中NTESSTUDYSI以及请求地址末尾参数做校验,所以只要csrfkey中数值和NTESSTUDYSI一样就行，随便你填什么，只要是字符串
 id查看方法https://www.icourse163.org/home.htm?userId=XXXXXXXXXX   去mooc中国大学mooc平台个人中心查看。
