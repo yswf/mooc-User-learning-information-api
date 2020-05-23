@@ -7,18 +7,18 @@ id查看方法https://www.icourse163.org/home.htm?userId=XXXXXXXXXX   去mooc中
 1.https://www.icourse163.org/web/j/memberBean.getMocMemberPersonalDtoById.rpc #返回用户头像，昵称等信息
 post提交data  ` {memberId: xxxxxxxxxx}` 
 返回json：
-``` json
+`
  {'code': 0, 'result': {'memberId': 1032127354, 'schoolName': '其他', 'schoolId': None, 'nickName': '游尚忘烦', 'largeFaceUrl': 'https://img-ph-mirror.nosdn.127.net/y-3-D05OabXYiLo3y6G00w==/6632377284050677150.jpg', 'department': '其他', 'memberType': 1, 'highestDegree': 5, 'jobName': None, 'description': None, 'richDescription': None, 'lectorTitle': None, 'realName': None, 'isTeacher': False, 'followCount': 3, 'followedCount': 0, 'schoolShortName': None, 'logoForCertUrl': None, 'supportMooc': None, 'supportSpoc': None, 'followStatus': False, 'supportCommonMooc': None, 'supportPostgradexam': None, 'lectorTag': None, 'relType': None}, 'message': '', 'traceId': '', 'sampled': False}
- ``` 
+ ` 
 
 
 2.https://www.icourse163.org/web/j/MocActivityScholarshipRpcBean.getActivityStatisticsByUser.rpc #返回平台参与度信息，包含需要学习时长等
 post提交data  ` {memberId: xxxxxxxxxx}` 
 返回json：
 
-``` json
+`
 {'code': 0, 'result': {'isSign': None, 'statistics': {'signCount': 0, 'courseCount': 0, 'postCount': 1, 'voteCount': 0, 'replyCount': 7, 'commentCount': 0, 'learnLongTimeCount': 4470}}, 'message': '', 'traceId': '', 'sampled': False}
-``` 
+` 
 
 
 3.https://www.icourse163.org/web/j/learnerCourseRpcBean.getOtherLearnedCoursePagination.rpc #返回所学习课程信息，最近学习靠前
@@ -33,9 +33,9 @@ post提交参数信息：
 返回json：
 
 
-``` json
+`
 {'code': 0, 'result': {'query': {'sortCriterial': None, 'DEFAULT_PAGE_SIZE': 10, 'DEFAULT_PAGE_INDEX': 1, 'DEFAULT_TOTLE_PAGE_COUNT': 1, 'DEFAULT_TOTLE_COUNT': 0, 'DEFAULT_OFFSET': 0, 'pageSize': 32, 'pageIndex': 1, 'totlePageCount': 1, 'totleCount': 1, 'offset': 0, 'limit': 32}, 'list': [{'uid': 1032127356, 'courseCoverUrl': 'http://edu-image.nosdn.127.net/65B575B91765DBCD593C825AB376F329.jpeg?imageView&thumbnail=426y240&quality=100', 'courseId': 53004, 'courseProductType': 1, 'courseName': '高等数学（一）', 'enrollCount': 109782, 'schoolName': '同济大学', 'schoolId': 8013, 'schoolShortName': 'TONGJI', 'whatCertGot': None, 'termId': 50003, 'supportCommonMooc': None, 'mode': 0, 'termPrice': None, 'termOriginalPrice': None}]}, 'message': '', 'traceId': '', 'sampled': False}
-``` 
+` 
 
 
 这个接口是我做python爬虫课设时候发现的，已经咨询过平台，为公开可查信息，第一次在github发项目，不是很懂，觉得还不错希望给个star⭐
