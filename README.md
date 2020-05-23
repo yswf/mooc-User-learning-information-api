@@ -5,16 +5,16 @@ id为大于1015002001十位数，最大值自己注册最新账号看
 id查看方法https://www.icourse163.org/home.htm?userId=XXXXXXXXXX   去mooc中国大学mooc平台个人中心查看。
 
 1.https://www.icourse163.org/web/j/memberBean.getMocMemberPersonalDtoById.rpc #返回用户头像，昵称等信息
-post提交data  ` {memberId: xxxxxxxxxx}` 
-返回json：
+<br>post提交data  ` {memberId: xxxxxxxxxx}` <br>
+返回json：<br>
 `
  {'code': 0, 'result': {'memberId': 1032127354, 'schoolName': '其他', 'schoolId': None, 'nickName': '游尚忘烦', 'largeFaceUrl': 'https://img-ph-mirror.nosdn.127.net/y-3-D05OabXYiLo3y6G00w==/6632377284050677150.jpg', 'department': '其他', 'memberType': 1, 'highestDegree': 5, 'jobName': None, 'description': None, 'richDescription': None, 'lectorTitle': None, 'realName': None, 'isTeacher': False, 'followCount': 3, 'followedCount': 0, 'schoolShortName': None, 'logoForCertUrl': None, 'supportMooc': None, 'supportSpoc': None, 'followStatus': False, 'supportCommonMooc': None, 'supportPostgradexam': None, 'lectorTag': None, 'relType': None}, 'message': '', 'traceId': '', 'sampled': False}
  ` 
 
 
 2.https://www.icourse163.org/web/j/MocActivityScholarshipRpcBean.getActivityStatisticsByUser.rpc #返回平台参与度信息，包含需要学习时长等
-post提交data  ` {memberId: xxxxxxxxxx}` 
-返回json：
+<br>post提交data  ` {memberId: xxxxxxxxxx}` <br>
+返回json：<br>
 
 `
 {'code': 0, 'result': {'isSign': None, 'statistics': {'signCount': 0, 'courseCount': 0, 'postCount': 1, 'voteCount': 0, 'replyCount': 7, 'commentCount': 0, 'learnLongTimeCount': 4470}}, 'message': '', 'traceId': '', 'sampled': False}
@@ -22,15 +22,16 @@ post提交data  ` {memberId: xxxxxxxxxx}`
 
 
 3.https://www.icourse163.org/web/j/learnerCourseRpcBean.getOtherLearnedCoursePagination.rpc #返回所学习课程信息，最近学习靠前
-post提交参数信息：
+<br>post提交参数信息：<br>
 
 ` {
 'uid': XXXXXXXXXXX,
 'pageIndex': '1',
 'pageSize': '32'
 }` 
-
+<br>
 返回json：
+<br>
 
 
 `
