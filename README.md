@@ -46,5 +46,4 @@ id查看方法https://www.icourse163.org/home.htm?userId=XXXXXXXXXX   去mooc中
 发之前搜索下应该是GitHub首发。
 例子为我写一个py爬虫，关于接口更多python爬虫使用信息请转到[爬取了中国大学mooc平台7万多用户学习情况发现](http://yswf.xyz/index.php/archives/114)
 
-<br>
-![](https://github.com/yswf/mooc-User-learning-information-api/blob/master/eg.png)
+![](https://github.com/yswf/mooc-User-learning-information-api/blob/master/eg.png) 
