@@ -45,3 +45,6 @@ id查看方法https://www.icourse163.org/home.htm?userId=XXXXXXXXXX   去mooc中
 这个接口是我做python爬虫课设时候发现的，已经咨询过平台，为公开可查信息，第一次在github发项目，不是很懂，觉得还不错希望给个star⭐
 发之前搜索下应该是GitHub首发。
 例子为我写一个py爬虫，关于接口更多python爬虫使用信息请转到[爬取了中国大学mooc平台7万多用户学习情况发现](http://yswf.xyz/index.php/archives/114)
+
+<br>
+![](https://github.com/yswf/mooc-User-learning-information-api/blob/master/eg.png)
